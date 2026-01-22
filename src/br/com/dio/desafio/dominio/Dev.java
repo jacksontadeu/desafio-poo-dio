@@ -45,7 +45,7 @@ public class Dev {
             this.conteudoConcluidos.add(conteudo.get());
             this.conteudoInscritos.remove(conteudo.get());
         }else{
-            System.err.out("Você não está matriculado no bootcamp");
+            System.err.println("Você não está matriculado no bootcamp");
         }
     }
 
